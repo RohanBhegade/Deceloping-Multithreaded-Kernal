@@ -127,3 +127,4 @@ The serial output spells the requested title with an ASCII hyphen (`MultiThreadO
 ## Limitations and future work
 
 The PIC/PIT path is single-core, uses a fixed 10 ms quantum, and does not yet distinguish CPU time from loop iterations. The scheduler uses statically allocated stacks and a fixed thread table; stack guards, blocking/wakeup, blocking I/O queues, mutex ownership, paging-backed allocation, user mode, filesystem support, exception diagnostics, and SMP are not implemented. The IDT has a safe halt stub for exceptions other than the two configured IRQs. These are known boundaries rather than completed features.
+# Deceloping-Multithreaded-Kernal
